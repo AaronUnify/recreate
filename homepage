@@ -1,0 +1,97 @@
+<style>
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.header {
+  background-color: #f0f0f0;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+}
+
+.article {
+   margin-bottom:20px; 
+}
+
+.article h2 {
+   font-family:"Times New Roman", serif; 
+   font-size:24px; 
+   color:#333333; 
+}
+
+.article p {
+   font-family:"Times New Roman", serif; 
+   font-size:18px; 
+   color:#666666; 
+}
+
+</style>
+
+
+<html>
+<head>
+  <title>Recreate Meaning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recreate Meaning</h1>
+    <div class="header">
+      <ul class="menu">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Philosophy</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">Economics</a></li>
+        <li><a href="#">Unify</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <!-- Here you can add previews of your articles -->
+      <!-- For example: -->
+      <div class="article">
+        <h2>How to Recreate Meaning in Your Life</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo vitae lorem consequat ullamcorper.</p>
+        <a href="#">Read more...</a>
+      </div>
+
+      <!-- Add more articles here -->
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
+
+

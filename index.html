@@ -1,79 +1,107 @@
+<!DOCTYPE html>
 <html>
-<style>
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: auto;
-}
-
-h1 {
-  font-family: Georgia, serif;
-  font-size: 36px;
-  text-align: center;
-  color: #483D8B;
-}
-
-.header {
-  background-color: #F5DEB3;
-}
-
-.menu {
-  list-style-type: none;
-}
-
-.menu li {
-  display: inline-block;
-}
-
-.menu li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #483D8B;
-  font-family: Georgia, serif;
-  font-size: 20px;
-}
-
-.content {
-  padding: 20px;
-}
-
-.article {
-  margin-bottom: 20px;
-  background-color: #F5F5DC;
-  border: 2px solid #483D8B;
-  padding: 10px;
-}
-
-.article h2 {
-  font-family: Georgia, serif;
-  font-size: 24px;
-  color: #483D8B;
-}
-
-.article p {
-  font-family: Georgia, serif;
-  font-size: 18px;
-  color: #696969;
-}
-
-.article a {
-  font-family: Georgia, serif;
-  font-size: 20px;
-  color: #483D8B;
-  text-decoration: none;
-}
-
-</style>
-
 <head>
   <title>Recreate Meaning</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Fonts */
+    body {
+      font-family: Georgia, serif;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    h1, h2, h3 {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      font-weight: normal;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 48px;
+      text-align: center;
+      color: #5b4636;
+    }
+
+    h2 {
+      font-size: 32px;
+      color: #3e3225;
+    }
+
+    h3 {
+      font-size: 24px;
+      color: #3e3225;
+    }
+
+    /* Layout */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .header {
+      background-color: #f0ead6;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      border: 1px solid #d4c4a1;
+    }
+
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu li {
+      margin-right: 2rem;
+    }
+
+    .menu li:last-child {
+      margin-right: 0;
+    }
+
+    .menu li a {
+      text-decoration: none;
+      color: #3e3225;
+      border-bottom: 2px solid transparent;
+      transition: border-bottom 0.2s ease-in-out;
+    }
+
+    .menu li a:hover {
+      border-bottom: 2px solid #3e3225;
+    }
+
+    .content {
+      margin-bottom: 2rem;
+    }
+
+    .article {
+      margin-bottom: 2rem;
+    }
+
+    .article p {
+      margin-bottom: 1rem;
+    }
+
+    .article a {
+      color: #3e3225;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .article a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
 </head>
 <body>
   <div class="container">
@@ -88,20 +116,13 @@ h1 {
       </ul>
     </div>
     <div class="content">
-      <!-- Here you can add previews of your articles -->
-      <!-- For example: -->
       <div class="article">
         <h2>How to Recreate Meaning in Your Life</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo vitae lorem consequat ullamcorper.</p>
         <a href="#">Read more...</a>
       </div>
-
       <!-- Add more articles here -->
-
     </div>
-
   </div>
-
 </body>
-
 </html>
